@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Food website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       <!--Header starts-->
+       <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i><span class="name">WN.</span></a>
+        <nav class="navbar">
+            <a  class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+       </header>
+       <!--Header end-->
+
+       <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+       </form>
+
+       <section class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Your go-to destination for ordering delicious and flavorful meals online, 
+                            offering a convenient and satisfying food ordering experience.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Your one-stop online platform for ordering crispy, juicy fried chicken dishes, 
+                            bringing mouthwatering flavors straight to your doorstep with ease.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Hot pizza</h3>
+                        <p> Hot Pizza Hub offers a sizzling selection of freshly 
+                            baked pizzas with tantalizing toppings, 
+                            delivering piping hot slices of perfection right to your door.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+       </section>
+
+       <!--Dishes section starts-->
+       <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/image_1.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                
+                <h3>Crispy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs:2000</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/img5.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                
+                <h3>Special Dish</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs:1500</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/img4.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs:1300</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/bowl.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                
+                <h3>Bowl Curry</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs:1800</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/cake.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                
+                <h3>Cake</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs:1500</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+       </section>
+       <!--Dishes section ends-->
+
+       <!--About section starts-->
+       <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/img_3.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Our commitment to excellence ensures top-notch ingredients and timely deliveries, 
+                    making us your trusted partner for satisfying cravings with ease.
+                </p>
+                
+            
+      
+
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+            
+
+                
+                    <div class="icons">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+               
+
+                
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 services</span>
+                    </div>
+                    
+                </div>
+                <a href="#" class="btn">learn more</a>
+                
+            </div>
+        </div>
+
+       </section>
+       <!--About section ends-->
+       <!--menu section starts-->
+       <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/img1.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Noodles</h3>
+                    <p>Savor the taste of happiness with our 
+                        mouthwatering noodle creations, 
+                        guaranteed to satisfy your cravings
+                    </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">Rs:2000</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img2.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Crispy chicken</h3>
+                    <p>Experience crispy perfection with our 
+                        golden-brown chicken dishes,
+                        delivering irresistible crunch in every bite.
+                    </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">Rs:1800</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img3.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Pizza</h3>
+                    <p> Enjoy a slice of heaven with our delectable pizzas,
+                         made with love and served hot for an unforgettable 
+                         dining experience
+                    </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">Rs:2000</span>
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/cake.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cake</h3>
+                    <p>Treat yourself to heavenly delights with 
+                        our decadent cakes,baked with care to add 
+                        joy to every celebration.
+                    </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">Rs:1500</span>
+                </div>
+
+            </div>
+        </div>
+
+       </section>
+       <!--menu section ends-->
+
+       <!--review section starts-->
+       <section class="review" id="review">
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">What they say</h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/nuzha.png" alt="">
+                        <div class="user-info">
+                            <h3>Waseema Nuzha</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Highly Recommended 
+                    </p>
+                </div>
+
+               
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/boy.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Saam Lary</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Highly Recommended
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/girl.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Asha Nimali</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Tasty & Great Service
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/boy2.png" alt="">
+                        <div class="user-info">
+                            <h3>John</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Nice
+                    </p>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+       </section>
+       <!--review section ends-->
+
+       <!--order section starts-->
+       <section class="order" id="order">
+        <h3 class="sub-heading">order now</h3>
+        <h1 class="heading">free and fast</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="text" placeholder="extra with food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name=""  placeholder="enter your address" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name=""  placeholder="enter your message" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+            <input type="submit" value="order now" class="btn">
+
+
+        </form>
+       </section>
+       <!--order section ends-->
+       <!--footer section starts-->
+       <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Colombo</a>
+                <a href="#">Badulla</a>
+                <a href="#">Matara</a>
+                <a href="#">Rathnapura</a>
+                <a href="#">Galle</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+0770503263</a>
+                <a href="#">+0714142669</a>
+                <a href="#">waseemanuzha63@gmail.com</a>
+                <a href="#">waseemanush@gmail.com</a>
+                <a href="#">Colombo, Sri Lanka</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="https://www.linkedin.com/in/waseema-nuzha-wazeer-73b4322a7/" target="_blank">linkedin</a>
+                
+            </div>
+
+        </div>
+        <div class="credit">copyright @ 2024 by <span>Waseema uzha</span></div> 
+       </section>
+       <!--footer section ends-->
+
+       <!--loader part -->
+
+       <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+       </div>
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
